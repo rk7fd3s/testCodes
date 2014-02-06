@@ -1,0 +1,481 @@
+
+/*! scPortal 2014-02-04 17:02:43 */
+/* Don't modify this file !!! */
+.nav-Point {
+    font-size: 12px;
+    display: block
+}
+
+.nav-Point .point {
+    font-size: 1.8em;
+    color: #ff753f
+}
+
+.nav-Point>li>a {
+    cursor: pointer
+}
+
+.navbar-inner>.nav-Point {
+    display: none
+}
+
+@media (max-width:768px){.nav-Point {
+        font-size: 11px
+    }
+
+    .navbar-inner .nav-Point {
+        display: none
+    }
+
+    .navbar-inner>.nav-Point {
+        display: block
+    }
+
+    .navbar-inner>.nav-Point>li>a {
+        padding-left: .6em;
+        padding-right: .6em
+    }
+}
+
+.divPoint .point, .point-help-modal-body .point {
+    color: #ff753f
+}
+
+.divPoint .point-ranking-arrow, .point-help-modal-body .point-ranking-arrow {
+    font-size: 1.4em;
+    text-align: right;
+    min-width: 2em
+}
+
+.divPoint .point-ranking-arrow .fa-arrow-circle-up, .point-help-modal-body .point-ranking-arrow .fa-arrow-circle-up {
+    color: #ff000a
+}
+
+.divPoint .point-ranking-arrow .fa-arrow-circle-right, .point-help-modal-body .point-ranking-arrow .fa-arrow-circle-right {
+    color: #3fe29a
+}
+
+.divPoint .point-ranking-arrow .fa-arrow-circle-down, .point-help-modal-body .point-ranking-arrow .fa-arrow-circle-down {
+    color: #3f94e2
+}
+
+.divPoint .point-header-waku {
+    display: table
+}
+
+.divPoint .point-header-waku .point-header-title {
+    display: table-cell;
+    width: 16em
+}
+
+.divPoint .point-header-waku .point-header-title>span {
+    font-size: 1.4em;
+    white-space: nowrap
+}
+
+.divPoint .point-header-waku .point-header-title>span:first-child {
+    margin-right: .2em
+}
+
+.divPoint .point-header-waku .point-header-point {
+    font-size: 2em;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+@media (max-width:768px){.divPoint .point-header-waku {
+        margin-bottom: .5em
+    }
+}
+
+.divPoint .point-header-link {
+    text-align: right
+}
+
+@media (max-width:24em){.divPoint .point-header-waku, .divPoint .point-header-waku .point-header-title {
+        display: block
+    }
+
+    .divPoint .point-header-waku .point-header-point {
+        display: block;
+        margin-top: .4em;
+        text-align: right
+    }
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown {
+    display: inline-block;
+    width: 260px
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown button:first-child {
+    width: 100%;
+    text-align: left;
+    color: #772b07
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown button:first-child>span {
+    font-weight: 700;
+    float: left
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown button:first-child .point-nav-title-additional {
+    float: right
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown button:first-child .point-nav-title-additional span.point {
+    color: red
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown .dropdown-backdrop {
+    display: inline-block;
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown .dropdown-toggle{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 0;
+}
+
+.divPoint .point-main .point-nav .point-nav-moveMonth {
+    display: inline-block;
+    margin-left: 2em
+}
+
+.divPoint .point-main .point-nav .point-nav-moveMonth div.btn {
+    text-align: left;
+    color: #772b07
+}
+
+.divPoint .point-main .point-nav .point-nav-moveMonth button:not(:last-child) {
+    padding-left: .8em;
+    padding-right: .8em
+}
+
+.divPoint .point-main .point-nav .standalone {
+    display: block;
+    margin-left: 0
+}
+
+.divPoint .point-main .point-nav .standalone div.btn {
+    width: 14em
+}
+
+.divPoint .point-main .point-nav .standalone div.btn>span {
+    font-weight: 700;
+    float: left
+}
+
+.divPoint .point-main .point-nav .standalone div.btn .point-nav-title-additional {
+    float: right
+}
+
+.divPoint .point-main .point-nav .standalone div.btn .point-nav-title-additional span.point {
+    color: red
+}
+
+@media (max-width:36em){.divPoint .point-main .point-nav .point-nav-pulldown {
+        display: block
+    }
+
+    .divPoint .point-main .point-nav .point-nav-pulldown :first-child {
+        border-bottom-left-radius: 0
+    }
+
+    .divPoint .point-main .point-nav .point-nav-pulldown button {
+        border-bottom-right-radius: 0
+    }
+
+    .divPoint .point-main .point-nav .point-nav-moveMonth:not(.standalone) {
+        display: block;
+        margin-left: 0
+    }
+
+    .divPoint .point-main .point-nav .point-nav-moveMonth:not(.standalone) div.btn {
+        width: 10.7em
+    }
+
+    .divPoint .point-main .point-nav .point-nav-moveMonth:not(.standalone) :first-child {
+        border-top-left-radius: 0
+    }
+
+    .divPoint .point-main .point-nav .point-nav-moveMonth:not(.standalone) :last-child {
+        border-top-right-radius: 0
+    }
+}
+
+.divPoint .point-main .point-main-waku {
+    background-color: #fff;
+    margin-top: 4px;
+    border: 2px solid orange;
+    border-radius: 6px;
+    max-width: 30em;
+    min-height: 6em;
+    max-height: 26em;
+    overflow-y: auto
+}
+
+@media (max-width:20em){.divPoint .point-main .point-main-waku {
+        min-width: 20em
+    }
+}
+
+.divPoint .point-main .point-main-waku table {
+    width: 27.4em;
+    margin: 0 .4em
+}
+
+@media (max-width:28em){.divPoint .point-main .point-main-waku table {
+        font-size: .95em
+    }
+}
+
+@media (max-width:26.5em){.divPoint .point-main .point-main-waku table {
+        font-size: .9em
+    }
+}
+
+@media (max-width:25em){.divPoint .point-main .point-main-waku table {
+        font-size: .85em
+    }
+}
+
+@media (max-width:24em){.divPoint .point-main .point-main-waku table {
+        font-size: .8em
+    }
+}
+
+@media (max-width:22.5em){.divPoint .point-main .point-main-waku table {
+        font-size: .75em
+    }
+}
+
+.divPoint .point-main .point-main-waku table thead {
+    display: none
+}
+
+.divPoint .point-main .point-main-waku table tr {
+    height: 2.5em
+}
+
+.divPoint .point-main .point-main-waku table tr:not(:last-child) {
+    border-bottom: 1px dotted gray
+}
+
+.divPoint .point-main .point-main-waku table td {
+    vertical-align: middle;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    padding-right: .6em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-icon {
+    color: gold;
+    text-align: center;
+    min-width: 1em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-rank {
+    min-width: 4em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-name {
+    min-width: 11em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-name span {
+    font-size: 1.4em;
+    white-space: nowrap
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-name span:first-child {
+    margin-right: .2em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-point {
+    text-align: right;
+    min-width: 4em
+}
+
+.divPoint .point-main .point-main-waku table .point-ranking-point .point {
+    font-size: 1.4em
+}
+
+.divPoint .point-main .point-main-waku table .point-history-datetime {
+    min-width: 5em
+}
+
+.divPoint .point-main .point-main-waku table .point-history-actionName {
+    min-width: 15em;
+    overflow-y: hidden
+}
+
+.divPoint .point-main .point-main-waku table .point-history-point {
+    text-align: right;
+    min-width: 4em
+}
+
+.divPoint .point-main .point-main-waku table .point-history-point .point {
+    font-size: 1.4em
+}
+
+.divPoint .point-main .point-setting .dataTables_filter input {
+    margin: 0
+}
+
+.divPoint .point-main .point-setting table .point-setting-no {
+    max-width: 2em;
+    text-align: right
+}
+
+.divPoint .point-main .point-setting table .point-setting-employe_number {
+    max-width: 5em
+}
+
+.divPoint .point-main .point-setting table .point-setting-coefficient {
+    max-width: 4.5em
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-future {
+    color: #666
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-now {
+    color: #000;
+    font-weight: 700
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-past {
+    color: #999
+}
+
+.divPoint .point-main .point-setting table tbody td {
+    vertical-align: middle
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-name {
+    white-space: nowrap
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-name span:first-child {
+    margin-right: .2em
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-coefficient {
+    white-space: nowrap;
+    text-align: right
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-coefficient .editing {
+    font-weight: 700;
+    color: #ec5252;
+    border-color: rgba(236, 82, 82, .8);
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(236, 82, 82, .6);
+    -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(236, 82, 82, .6);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(236, 82, 82, .6)
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-coefficient input {
+    width: 2.5em;
+    text-align: right;
+    margin: 0
+}
+
+.divPoint .point-main .point-setting table tbody .point-setting-coefficient span {
+    vertical-align: bottom;
+    margin-right: .2em;
+    color: #ff8c00
+}
+
+.divPoint .point-main .point-setting .point-setting-position-right {
+    text-align: right;
+    margin: .6em 0
+}
+
+.divPoint .point-main .point-setting .point-setting-position-right label {
+    display: inline-block
+}
+
+.divPoint .point-main .point-setting .point-setting-position-right input {
+    margin: 0;
+    width: 7em
+}
+
+#scportal-standalone .navbar-inner h4 span:first-child {
+    margin-right: .2em
+}
+
+#scportal-standalone .point-main {
+    padding: 0 .8em
+}
+
+.point-help-modal-body .point-bg {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center, center
+}
+
+.point-help-modal-body .point-bg.point-desc-point {
+    background-image: url(img/point/point_bg-g.png)
+}
+
+.point-help-modal-body .point-bg.point-desc-ranking {
+    background-image: url(img/point/crown_bg-g.png);
+    background-position: right, center
+}
+
+.point-help-modal-body>div.alert {
+    padding: 0;
+    background-color: inherit
+}
+
+.point-help-modal-body>div.alert h4.alert {
+    margin: 0;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.point-help-modal-body>div.alert>:not(h4) {
+    margin: .8em;
+    color: #707070
+}
+
+.point-help-modal-body table {
+    font-size: .8em
+}
+
+.point-help-modal-body table td {
+    padding: .2em
+}
+
+.point-help-modal-body table tfoot {
+    border: 4px solid #f09898;
+    font-size: 1.2em
+}
+
+.point-help-modal-body table tfoot p {
+    margin-left: .4em;
+    margin-bottom: .4em
+}
+
+.point-help-modal-body .point-attention:not(:last-child) {
+    margin-bottom: .6em
+}
+
+.point-help-modal-body #footnotes {
+    font-size: .8em;
+    padding-left: 1.6em
+}
+
+.point-help-modal-body #footnotes li {
+    line-height: 1.2em
+}
+
+

@@ -1,0 +1,9 @@
+.divPoint .point-main .point-nav .point-nav-pulldown .dropdown-backdrop {
+    display: inline-block;
+}
+
+.divPoint .point-main .point-nav .point-nav-pulldown .dropdown-toggle{
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-left: 0;
+}
