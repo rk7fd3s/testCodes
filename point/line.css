@@ -1,0 +1,97 @@
+#divTimelineContainer #timelineTable ul {
+    border: 0;
+    z-index: 1;
+    position: relative;
+}
+#divTimelineContainer #timelineTable ul .comment {
+    border: 0;
+    clear: both;
+}
+#divTimelineContainer #timelineTable .delbutton {
+    float: initial;
+    clear: initial;
+}
+#divTimelineContainer #timelineTable ul .comment > div:nth-child(1) {
+    float: left;
+}
+#divTimelineContainer #timelineTable ul .comment > div:nth-child(2) {
+    position: relative;
+    background: linear-gradient(#e7ffe5, #d4edc4);
+    padding: .6em;
+    max-width: 75%;
+    margin-bottom: 0;
+    border-radius: 16px;
+    float: left;
+    clear: left;
+}
+#divTimelineContainer #timelineTable ul .comment > div:nth-child(2):after {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: -1;
+    background: #fff;
+    left: -8px;
+    top: -30px;
+}
+#divTimelineContainer #timelineTable ul .comment > div:nth-child(2):before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: -1;
+    background: #E8F8DD;
+    left: -8px;
+    top: -20px;
+}
+#divTimelineContainer #timelineTable ul .comment > div:nth-child(3) {
+    float: left;
+    clear: left;
+}
+#divTimelineContainer #timelineTable ul .comment.myself > div:nth-child(1) {
+    float: right;
+}
+#divTimelineContainer #timelineTable ul .comment.myself > div:nth-child(2) {
+    position: relative;
+    background: linear-gradient(#e7ffe5, #d4edc4);
+    padding: .6em;
+    max-width: 75%;
+    margin-bottom: 0;
+    border-radius: 16px;
+    float: right;
+    clear: right;
+}
+#divTimelineContainer #timelineTable ul .comment.myself > div:nth-child(2):after {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: -1;
+    background: #fff;
+    left: initial;
+    right: -8px;
+    top: -30px;
+}
+#divTimelineContainer #timelineTable ul .comment.myself > div:nth-child(2):before {
+    content: '';
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    z-index: -1;
+    background: #E8F8DD;
+    left: initial;
+    right: -8px;
+    top: -20px;
+}
+#divTimelineContainer #timelineTable ul .comment.myself > div:nth-child(3) {
+    float: right;
+    clear: right;
+}
+
+
+
+
